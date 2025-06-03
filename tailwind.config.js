@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#0D0D0D',
+          50: '#FAF9F6',
+          100: '#F5F4F1',
+          200: '#EBE9E4',
+          300: '#B0B0B0',
+          400: '#8A8A8A',
+          500: '#0D0D0D',
+          600: '#0B0B0B',
+          700: '#090909',
+          800: '#070707',
+          900: '#050505',
+          950: '#030303',
+        },
+        accent: {
+          DEFAULT: '#FF9933',
+          50: '#FFF5EB',
+          100: '#FFE8CC',
+          200: '#FFD199',
+          300: '#FFBA66',
+          400: '#FFA333',
+          500: '#FF9933',
+          600: '#FF8000',
+          700: '#CC6600',
+          800: '#994C00',
+          900: '#663300',
+          950: '#4D2600',
+        },
+        quantum: {
+          DEFAULT: '#2152FF',
+          50: '#E9EDFF',
+          100: '#D4DCFF',
+          200: '#ABB9FF',
+          300: '#8296FF',
+          400: '#5973FF',
+          500: '#2152FF',
+          600: '#0033ED',
+          700: '#0028B8',
+          800: '#001D83',
+          900: '#00124E',
+          950: '#000C33',
+        },
+        card: '#EBE9E4',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
+      letterSpacing: {
+        widest: '.25em',
+      },
+    },
+  },
+  plugins: [],
+};
